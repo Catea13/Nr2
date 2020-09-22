@@ -3,12 +3,12 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-      Куб куб=new Куб(5,9);//*dlinarebra*dlinarebra*dlinarebra
+      Cube куб=new Cube(5,9);//*dlinarebra*dlinarebra*dlinarebra
       куб.volum();
 
-      Куб куб1=new Куб(12,8);//*dlinarebra*dlinarebra*dlinarebra
+      Cube куб1=new Cube(12,8);//*dlinarebra*dlinarebra*dlinarebra
       куб1.volum();
-      Квадрат квадрат=new Квадрат(3,5);//*storona*storona
+      Square квадрат=new Square(3,5);//*storona*storona
       квадрат.aria();
       int volum1=куб.volum();
       int volum2=куб1.volum();
